@@ -1,0 +1,23 @@
+my_pkg
+/home/luigi/catkin_ws/devel/.private/my_pkg/cmake.lock /home/luigi/catkin_ws/devel/./cmake.lock
+/home/luigi/catkin_ws/devel/.private/my_pkg/include/my_pkg/my_msg.h /home/luigi/catkin_ws/devel/include/my_pkg/my_msg.h
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/roseus/ros/my_pkg/manifest.l /home/luigi/catkin_ws/devel/share/roseus/ros/my_pkg/manifest.l
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/roseus/ros/my_pkg/msg/my_msg.l /home/luigi/catkin_ws/devel/share/roseus/ros/my_pkg/msg/my_msg.l
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/common-lisp/ros/my_pkg/msg/_package_my_msg.lisp /home/luigi/catkin_ws/devel/share/common-lisp/ros/my_pkg/msg/_package_my_msg.lisp
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/common-lisp/ros/my_pkg/msg/my_msg.lisp /home/luigi/catkin_ws/devel/share/common-lisp/ros/my_pkg/msg/my_msg.lisp
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/common-lisp/ros/my_pkg/msg/my_pkg-msg.asd /home/luigi/catkin_ws/devel/share/common-lisp/ros/my_pkg/msg/my_pkg-msg.asd
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/common-lisp/ros/my_pkg/msg/_package.lisp /home/luigi/catkin_ws/devel/share/common-lisp/ros/my_pkg/msg/_package.lisp
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/my_pkg/cmake/my_pkg-msg-paths.cmake /home/luigi/catkin_ws/devel/share/my_pkg/cmake/my_pkg-msg-paths.cmake
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/my_pkg/cmake/my_pkgConfig-version.cmake /home/luigi/catkin_ws/devel/share/my_pkg/cmake/my_pkgConfig-version.cmake
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/my_pkg/cmake/my_pkg-msg-extras.cmake /home/luigi/catkin_ws/devel/share/my_pkg/cmake/my_pkg-msg-extras.cmake
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/my_pkg/cmake/my_pkgConfig.cmake /home/luigi/catkin_ws/devel/share/my_pkg/cmake/my_pkgConfig.cmake
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/gennodejs/ros/my_pkg/_index.js /home/luigi/catkin_ws/devel/share/gennodejs/ros/my_pkg/_index.js
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/gennodejs/ros/my_pkg/msg/my_msg.js /home/luigi/catkin_ws/devel/share/gennodejs/ros/my_pkg/msg/my_msg.js
+/home/luigi/catkin_ws/devel/.private/my_pkg/share/gennodejs/ros/my_pkg/msg/_index.js /home/luigi/catkin_ws/devel/share/gennodejs/ros/my_pkg/msg/_index.js
+/home/luigi/catkin_ws/devel/.private/my_pkg/lib/pkgconfig/my_pkg.pc /home/luigi/catkin_ws/devel/lib/pkgconfig/my_pkg.pc
+/home/luigi/catkin_ws/devel/.private/my_pkg/lib/python3/dist-packages/my_pkg/__init__.py /home/luigi/catkin_ws/devel/lib/python3/dist-packages/my_pkg/__init__.py
+/home/luigi/catkin_ws/devel/.private/my_pkg/lib/python3/dist-packages/my_pkg/msg/__init__.py /home/luigi/catkin_ws/devel/lib/python3/dist-packages/my_pkg/msg/__init__.py
+/home/luigi/catkin_ws/devel/.private/my_pkg/lib/python3/dist-packages/my_pkg/msg/_my_msg.py /home/luigi/catkin_ws/devel/lib/python3/dist-packages/my_pkg/msg/_my_msg.py
+/home/luigi/catkin_ws/devel/.private/my_pkg/lib/my_pkg/my_pkg_listener /home/luigi/catkin_ws/devel/lib/my_pkg/my_pkg_listener
+/home/luigi/catkin_ws/devel/.private/my_pkg/lib/my_pkg/my_pkg /home/luigi/catkin_ws/devel/lib/my_pkg/my_pkg
+/home/luigi/catkin_ws/devel/.private/my_pkg/lib/my_pkg/my_pkg_node /home/luigi/catkin_ws/devel/lib/my_pkg/my_pkg_node

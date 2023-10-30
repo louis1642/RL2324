@@ -1,0 +1,11 @@
+<launch>
+    <!-- Include Gazebo ROS package to set up Gazebo -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch" />
+
+    <!-- Load the URDF as parameter (using xacro)   -->
+    <param name="robot_description" command="$(find xacro)/xacro $(find arm_description)/urdf/arm.urdf.xacro" />
+
+    <!-- Spawn robot in Gazebo -->
+    <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" output="screen" respawn="false" args="-urdf -param robot_description -model arm" />
+
+</launch>

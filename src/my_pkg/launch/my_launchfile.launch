@@ -1,0 +1,6 @@
+<launch>
+<!--<arg name="talker_number" default="1"/>-->
+<!--<param name="talker_number" value="$(arg talker_number)" />-->
+<rosparam command="load" file="$(find my_pkg)/config/params.yaml"/>
+<node name="my_pkg_node" pkg="my_pkg" type="my_pkg_node" output="screen"/>
+</launch>
