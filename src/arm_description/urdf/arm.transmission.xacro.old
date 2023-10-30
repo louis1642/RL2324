@@ -3,9 +3,6 @@
     <xacro:macro name="joint_interface" params="joint_name">
         <transmission name="${joint_name}_joint_transmission">
             <type>transmission_interface/SimpleTransmission</type>
-            <actuator name="${joint_name}_actuator">
-                <mechanicalReduction>1</mechanicalReduction>
-            </actuator>
             <joint name="${joint_name}">
                 <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
             </joint>

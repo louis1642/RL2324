@@ -3,6 +3,14 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
   <xacro:macro name="gazebo_tags">
+
+<!--    gazebo_ros_control plugin-->
+    <gazebo>
+      <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+        <robotNamespace>/arm</robotNamespace>
+      </plugin>
+    </gazebo>
+
     <gazebo reference="f4">
       <material>Gazebo/Red</material>
     </gazebo>
