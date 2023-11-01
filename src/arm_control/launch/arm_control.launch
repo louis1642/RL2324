@@ -1,8 +1,11 @@
 <?xml version="1.0"?>
 <launch>
     <arg name="robot_name" default="arm"/>
-<!--    <arg name= "hardware_interface" default="PositionJointInterface"/>-->
-    <arg name="controllers" default="joint_state_controller"/>
+    <arg name="controllers" default="joint_state_controller
+                 J0_positionController
+                 J1_positionController
+                 J2_positionController
+                 J3_positionController"/>
     <arg name="robot_state_frequency" default="100" />
     <arg name="joint_state_frequency" default="100" />
 
@@ -12,8 +15,6 @@
 
     <!-- Spawn joint controllers using controller_manager -->
     <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="/$(arg robot_name)"  args="$(arg controllers)" />
-    <!-- <node name="controller_manager" pkg="controller_manager" type="spawner" respawn="false" output="screen"  args="$(arg controllers)">
-    </node> -->
 
     <!-- convert joint states to TF transforms for rviz, etc -->
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"  respawn="false" output="screen">

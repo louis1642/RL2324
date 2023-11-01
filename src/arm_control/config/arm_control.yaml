@@ -6,18 +6,18 @@
     publish_rate: 50
 
   # Forward Position Controllers ------------------------------------------------------
-  joint0_position_controller:
+  J0_positionController:
     type: position_controllers/JointPositionController
     joint: j0
 
-  joint1_position_controller:
+  J1_positionController:
     type: position_controllers/JointPositionController
     joint: j1
 
-  joint2_position_controller:
+  J2_positionController:
     type: position_controllers/JointPositionController
     joint: j2
 
-  joint3_position_controller:
+  J3_positionController:
     type: position_controllers/JointPositionController
     joint: j3
