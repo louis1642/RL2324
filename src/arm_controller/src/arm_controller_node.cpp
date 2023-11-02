@@ -35,6 +35,5 @@ int main(int argc, char **argv) {
         t = t % 500;
     }
 
-
     return 0;
 }

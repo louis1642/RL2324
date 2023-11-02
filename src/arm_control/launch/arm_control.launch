@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <launch>
     <arg name="robot_name" default="arm"/>
+    <!-- the controllers are the ones defined in arm_control.yaml -->
     <arg name="controllers" default="joint_state_controller
                  J0_positionController
                  J1_positionController
@@ -14,10 +15,10 @@
     <param name="/$(arg robot_name)/joint_state_controller/publish_rate" value="$(arg joint_state_frequency)" />
 
     <!-- Spawn joint controllers using controller_manager -->
-    <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="/$(arg robot_name)"  args="$(arg controllers)" />
+    <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="/$(arg robot_name)" args="$(arg controllers)" />
 
     <!-- convert joint states to TF transforms for rviz, etc -->
-    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"  respawn="false" output="screen">
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
         <remap from="/joint_states" to="/$(arg robot_name)/joint_states" />
         <param name="publish_frequency" value="$(arg robot_state_frequency)"/>
     </node>

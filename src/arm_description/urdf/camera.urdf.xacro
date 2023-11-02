@@ -6,7 +6,7 @@
         
     <xacro:macro name="camera_sensor" params="xyz rpy parent robot_name">
         <joint name="camera_sensor_joint" type="fixed">
-<!--            looking in the forward direction-->
+            <!-- looking in the forward direction-->
             <axis xyz="0 0 1" />
             <origin xyz="${xyz}" rpy="${rpy}"/>
             <parent link="${parent}"/>
@@ -70,7 +70,7 @@
                     <distortionT2>0.0</distortionT2>
                 </plugin>
             </sensor>
-<!--            Adding color so that it shows up in Gazebo-->
+            <!-- Adding color for Gazebo-->
             <material>Gazebo/Green</material>
     </gazebo>
 
