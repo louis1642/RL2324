@@ -51,6 +51,7 @@
     </inertial>
   </link>
 
+<!--  added joint interface through xacro macro -->
   <xacro:joint_interface joint_name="j0" />
   <joint name="j0" type="revolute">
     <parent link="base_turn"/>
